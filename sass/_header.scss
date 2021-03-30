@@ -1,0 +1,34 @@
+header{
+  .navbar{
+    background: transparent;
+    position: absolute;
+
+  .toggler-icon{
+    color: #eee;
+  }
+  .nav-link{
+    color: $textcolor;
+    font-size: 18px;
+    font-weight: 400;
+    transition: all 0.3s ease-in-out;
+    padding: 20px;
+
+    &:hover{
+      color: #676767;
+    }
+  }
+  .info-icon{
+    color: $textcolor !important;
+  }
+}
+.navbar-collapse{
+  padding-left: 1100px;
+  ul{
+    li{
+      a{
+        padding-right: 3rem !important;
+      }
+    }
+  }
+}
+}
